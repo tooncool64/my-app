@@ -1,4 +1,4 @@
-import Header from "./Header"
+import Navbar from "./Navbar"
 import MainContent from "./MainContent"
 import Footer from "./Footer"
 import './globals.css'
@@ -6,7 +6,7 @@ import './globals.css'
 export default function HomePage() {
   return (
     <div>
-      <Header />
+      <Navbar />
       <MainContent />
       <Footer />
     </div>

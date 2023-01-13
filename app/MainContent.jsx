@@ -1,12 +1,13 @@
 export default function MainContent1() {
     return ( 
-         <div>
-             <h1>Some text here!</h1>
-             <ol>
-             <li>Its exciting!</li>
-             <li>Its gonnsa be fun!</li>
-             <li>Money!</li>
-             </ol>
-     </div>
+        <div>
+            <ul>
+                <li>Number 1</li>
+                <li>Number 2</li>
+                <li>Number 3</li>
+                <li>Number 4</li>
+                <li>Number 5</li>
+            </ul>
+        </div>
     )
  }
