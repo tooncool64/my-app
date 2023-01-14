@@ -33,8 +33,32 @@
 body {
     background-color:#282d35;
     margin: 0;
+    color: white;
 }
 
 .content {
-    margin: 10px;
+    padding: 57px 27px;
+    background-image: url(../public/react_large.png);
+    background-repeat: no-repeat;
+    background-position: right 75%;
+}
+
+.content > h1 {
+    margin: 0;
+    font-size: 39px;
+    letter-spacing: -0.05em;
+}
+
+.item-list {
+    margin-top: 46px;
+    max-width: 400px;
+}
+
+.item-list > li {
+    padding-block: 10px;
+}
+
+::marker {
+    color: #61dafb;
+    font-size: 1.8rem;
 }

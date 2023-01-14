@@ -2,7 +2,7 @@ export default function MainContent1() {
     return ( 
         <div className='content'>
             <h1>Fun facts about React</h1>
-            <ul>
+            <ul className="item-list">
                 <li>Was first released in 2013</li>
                 <li>Was originally created by Jordan Walke</li>
                 <li>Has well over 100K stars on GitHub</li>
