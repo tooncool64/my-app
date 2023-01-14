@@ -1,21 +1,40 @@
-.nav-items {
-    list-style: none;
-    display: flex;
-    font-weight: 600;
-}
-
 .nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background-color: #21222A;
+    padding: 30px 25px;
+    height: 90px;
 }
 
-.nav-items > li {
-    padding: 10px;
+.nav > h4 {
+    color: #deebf8;
+    font-weight: 600;
 }
 
 .footer {
     font-size: larger;
     position: fixed;
     bottom: 0px;
+}
+
+.nav-right {
+    display: flex;
+    align-items: center;
+    color: #61dafb;
+    font-weight: 700;
+    font-size: 22px;
+}
+
+.logo {
+    margin-right: 7px;
+}
+
+body {
+    background-color:#282d35;
+    margin: 0;
+}
+
+.content {
+    margin: 10px;
 }

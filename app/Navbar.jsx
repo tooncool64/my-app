@@ -2,12 +2,12 @@ import Image from "next/image"
 
 export default function Navbar() {
     return (
-    <div>
         <nav className='nav'>
-            <Image src='/react.png' className='logo' width='40' height='40' alt='logo'></Image>
-            <h3>Lorem ipsum</h3>
-            <h4>Lorem Ipsum</h4>
+            <div className="nav-right">
+                <Image src='/react.png' className='logo' width='40' height='40' alt='logo'></Image>
+                <h3>ReactFacts</h3>
+            </div>
+            <h4>React Course - Project 1</h4>
         </nav>
-    </div>
     )
 }
