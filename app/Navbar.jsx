@@ -3,11 +3,11 @@ import './globals.css'
 
 export default function Navbar() {
     return (
-        <nav>
-            <span>Projects</span>
-            <div className='dropdown-content'>
-                <Link href={'./first-project/'}>First Project</Link>
-            </div>
+        <nav className='navbar'>
+            <Link href={'/first-project/'}>First Project</Link>
+            <Link href={'/second-project/'}>Second Project</Link>
+            <span>About</span>
+            <span>Contact</span>
         </nav>
     )
 }
