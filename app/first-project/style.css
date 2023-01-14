@@ -1,0 +1,65 @@
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #21222A;
+    padding: 30px 25px;
+    height: 90px;
+}
+
+.nav > h4 {
+    color: #deebf8;
+    font-weight: 600;
+}
+
+.footer {
+    font-size: larger;
+    position: fixed;
+    bottom: 0px;
+}
+
+.nav-right {
+    display: flex;
+    align-items: center;
+    color: #61dafb;
+    font-weight: 700;
+    font-size: 22px;
+}
+
+.logo {
+    margin-right: 7px;
+}
+
+.body {
+    background-color:#282d35;
+    margin: 0;
+    color: white;
+    height: 100%;
+}
+
+.content {
+    padding: 57px 27px;
+    background-image: url(/my-app/public/react_large.png);
+    background-repeat: no-repeat;
+    background-position: right 75%;
+}
+
+.content > h1 {
+    margin: 0;
+    font-size: 39px;
+    letter-spacing: -0.05em;
+}
+
+.item-list {
+    margin-top: 46px;
+    max-width: 400px;
+}
+
+.item-list > li {
+    padding-block: 10px;
+}
+
+::marker {
+    color: #61dafb;
+    font-size: 1.8rem;
+}

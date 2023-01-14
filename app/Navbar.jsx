@@ -1,13 +1,13 @@
-import Image from "next/image"
+import Link from 'next/link'
+import './globals.css'
 
 export default function Navbar() {
     return (
-        <nav className='nav'>
-            <div className="nav-right">
-                <Image src='/react.png' className='logo' width='40' height='40' alt='logo'></Image>
-                <h3>ReactFacts</h3>
+        <nav>
+            <span>Projects</span>
+            <div className='dropdown-content'>
+                <Link href={'./first-project/'}>First Project</Link>
             </div>
-            <h4>React Course - Project 1</h4>
         </nav>
     )
 }
