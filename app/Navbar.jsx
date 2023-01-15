@@ -6,6 +6,7 @@ export default function Navbar() {
         <nav className='navbar'>
             <Link href={'/first-project/'}>First Project</Link>
             <Link href={'/second-project/'}>Second Project</Link>
+            <Link href={'/third-project'}>Third Project</Link>
             <span>About</span>
             <span>Contact</span>
         </nav>

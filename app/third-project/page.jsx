@@ -1,11 +1,11 @@
-import Footer from "./Footer"
 import Navbar from "./Navbar"
+import './style.css'
 
-export default function HomePage() {
+export default function AirBNBClone() {
     return (
         <div>
             <Navbar />
-            <Footer />
+            <h1>App Component</h1>
         </div>
     )
 }
