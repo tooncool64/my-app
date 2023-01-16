@@ -1,11 +1,14 @@
+import HeroContent from "./Hero"
 import Navbar from "./Navbar"
+import Card from "./Card"
 import './style.css'
 
 export default function AirBNBClone() {
     return (
         <div>
             <Navbar />
-            <h1>App Component</h1>
+            <HeroContent />
+            <Card />
         </div>
     )
 }
